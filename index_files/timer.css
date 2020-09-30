@@ -1,0 +1,77 @@
+/*Таймер*/
+.countbox {
+    width: 100%;
+    height: 139px;
+    margin: 0 auto 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+.countbox:before {
+    content: 'До конца акции осталось:';
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    font-family:'Bebas Neue Bold';
+    text-transform: uppercase;
+    color:#fff;
+    margin-bottom: 13px;
+}
+.countbox .countbox-num {
+    float: left;
+}
+.countbox .countbox-space {
+    float: left;
+    height: 48px;
+    width: 27px;
+}
+.countbox-hours1, .countbox-mins1, .countbox-secs1, .countbox-hours2, .countbox-mins2, .countbox-secs2 {
+    float: left;
+    margin-right: 5px;
+    width: 46px;
+    height: 72px;
+    line-height: 72px;
+    text-align: center;
+    z-index: 1;
+    color: #222222;
+    background: #fbf203;
+    font-size:38px;
+    font-weight: 700;
+    font-family:'Bebas Neue Bold';
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin-bottom: 10px;
+    position: relative;
+    border-bottom: 3px solid #d1c500;
+}
+/*
+.countbox-hours2:after,
+.countbox-mins2:after {
+    content: ':';
+    display: block;
+    font-weight: 900;
+    color:#000;
+    font-size: 36px;
+    position: absolute;
+    top:-1px;
+    right: -20px;
+}
+*/
+.countbox-hours-text {
+    padding-left: 44px;
+}
+.countbox-secs2 {
+    margin-right: 0;
+}
+.countbox-hours1 {
+    margin-left: 52.5px;
+}
+.countbox-hours-text, .countbox-mins-text, .countbox-secs-text {
+    font-size: 18px;
+    font-weight: 400;
+    font-family:'Bebas Neue Regular';
+    color:#fff;
+    text-align: center;
+    text-transform: uppercase;
+}
